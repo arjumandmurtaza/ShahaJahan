@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ShahJahan | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="home-page">
+    <header>
+        <div class="logo">
+            <img src="./images/SHAHlogo.png" alt="ShahJahan's Logo" class="logo-img" style="width:auto; height:auto;">
+
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="checkout.html" id="cart-icon">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to ShahJahan</h1>
+        <p>Indulge in the finest cuisine. Where passion meets taste.</p>
+        <a href="menu.html" class="cta-btn">Browse Our Menu</a>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section class="featured-products">
+        <h2>Our Featured Dishes</h2>
+        <div class="featured-grid">
+            <div class="featured-item">
+                <img src="images/nihari.jpg" alt="Dish 1">
+                <h3>Red Beef Nihari</h3>
+                <p>A rich blend of flavors with a touch of elegance.</p>
+                <p class="price">$15.99</p>
+                <button class="add-to-cart" data-name="Red Beef nihari" data-price="15.99" data-image="images/nihari.jpg">Add to Cart</button>
+            </div>
+            <div class="featured-item">
+                <img src="images/pic2.jpg" alt="Dish 2">
+                <h3>Dal Makhni</h3>
+                <p>A perfect fusion of spices and textures.</p>
+                <p class="price">$12.99</p>
+                <button class="add-to-cart" data-name="Dal Makhni" data-price="12.99" data-image="images/pic2.jpg">Add to Cart</button>
+            </div>
+            <div class="featured-item">
+                <img src="images/pic3.jpg" alt="Dish 3">
+                <h3>Lahori Chicken</h3>
+                <p>A fresh and vibrant dish to tantalize your taste.</p>
+                <p class="price">$13.99</p>
+                <button class="add-to-cart" data-name="Lahori Chicken" data-price="13.99" data-image="images/pic3.jpg">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <img src="images/SHAHlogo.png" alt="ShazahJahan's Logo" class="footer-logo">
+            </div>
+            <div class="footer-right">
+                <p>&copy; 2025 ShahJahan | All Rights Reserved</p>
+                <div class="social-links">
+                    <a href="https://en-gb.facebook.com/" class="social-icon facebook" target="https://en-gb.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/" class="social-icon instagram" target="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
